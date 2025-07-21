@@ -1,0 +1,232 @@
+*,
+body {
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+   color: #000;
+}
+
+/* 헤더 */
+
+button.mobile-menu {
+   display: none;
+}
+
+.logo {
+   height: 40px;
+   margin-right: 15px;
+}
+
+.login {
+   display: flex;
+   justify-content: center;
+   border: 1px solid #ff8800;
+   border-radius: 2rem;
+   padding: 20px;
+   max-width: 350px;
+   margin: 0 auto;
+}
+
+/* From Uiverse.io by bociKond */
+.login-form {
+   --bg-light: #efefef;
+   --bg-dark: #ff8800;
+   --clr: #eb6200;
+   --clr-alpha: #ffe4c5;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   width: 100%;
+   max-width: 300px;
+}
+
+.login-form .input-span {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.login-form input[type='email'],
+.login-form input[type='password'],
+.login-form input[type='text'] {
+   border-radius: 0.5rem;
+   padding: 1rem 0.75rem;
+   border: none;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   background-color: var(--clr-alpha);
+   outline: 2px solid var(--bg-dark);
+}
+
+.login-form input[type='email']:focus,
+.login-form input[type='password']:focus,
+.login-form input[type='text']:focus {
+   outline: 2px solid var(--clr);
+}
+
+.label {
+   align-self: flex-start;
+   color: var(--clr);
+   font-weight: 600;
+}
+
+.login-form .submit {
+   margin-top: 10px;
+   padding: 1rem 0.75rem;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   border-radius: 3rem;
+   background-color: var(--bg-dark);
+   color: var(--bg-light);
+   border: none;
+   cursor: pointer;
+   transition: all 300ms;
+   font-weight: 600;
+   font-size: 0.9rem;
+}
+
+.signup {
+   display: flex;
+   justify-content: center;
+   border: 1px solid #ff8800;
+   border-radius: 2rem;
+   padding: 20px;
+   max-width: 500px;
+   margin: 0 auto 40px;
+}
+
+/* From Uiverse.io by bociKond */
+.signup-form {
+   --bg-light: #efefef;
+   --bg-dark: #ff8800;
+   --clr: #eb6200;
+   --clr-alpha: #ffe4c5;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   width: 100%;
+   max-width: 500px;
+}
+
+.signup-form .input-span {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.signup-form input[type='email'],
+.signup-form input[type='password'],
+.signup-form input[type='text'] {
+   border-radius: 0.5rem;
+   padding: 1rem 0.75rem;
+   border: none;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   background-color: var(--clr-alpha);
+   outline: 2px solid var(--bg-dark);
+}
+
+.signup-form input[type='email']:focus,
+.signup-form input[type='password']:focus,
+.signup-form input[type='text']:focus {
+   outline: 2px solid var(--clr);
+}
+
+.label {
+   align-self: flex-start;
+   color: var(--clr);
+   font-weight: 600;
+}
+
+.signup-form .submit {
+   margin-top: 10px;
+   padding: 1rem 0.75rem;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   border-radius: 3rem;
+   background-color: var(--bg-dark);
+   color: var(--bg-light);
+   border: none;
+   cursor: pointer;
+   transition: all 300ms;
+   font-weight: 600;
+   font-size: 0.9rem;
+}
+
+.signup-form .submit:hover {
+   background-color: var(--clr);
+   color: var(--bg-dark);
+}
+
+.span {
+   text-decoration: none;
+   color: #666;
+}
+
+.span a {
+   text-decoration: underline;
+   color: var(--clr);
+}
+
+.signup-form .submit:hover {
+   background-color: var(--clr);
+   color: var(--bg-dark);
+}
+
+.span {
+   text-decoration: none;
+   color: #666;
+}
+
+.span a {
+   text-decoration: underline;
+   color: var(--clr);
+}
+
+/* 메인 */
+
+main.wrap {
+   margin: 0 auto;
+   max-width: 1340px;
+}
+
+div.mobile-float {
+   display: none;
+}
+
+@media (max-width: 600px) {
+   div.MuiToolbar-regular {
+      justify-content: space-between;
+   }
+
+   button.mobile-menu {
+      display: inline-block;
+      margin-right: 5px;
+   }
+
+   div.company {
+      display: none;
+   }
+
+   .write {
+      display: none;
+   }
+
+   div.mobile-float {
+      display: flex;
+   }
+}
