@@ -208,6 +208,34 @@ div.mobile-float {
    display: none;
 }
 
+.location {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+div.swiper {
+   margin: 0;
+   height: 47px;
+}
+
+.swiper-slide {
+   text-align: center;
+   font-size: 32px;
+   font-weight: bold;
+   background: #fff;
+
+   /* Center slide text vertically */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.swiper-vertical > .swiper-pagination-bullets,
+.swiper-pagination-vertical.swiper-pagination-bullets {
+   display: none;
+}
+
 @media (max-width: 600px) {
    div.MuiToolbar-regular {
       justify-content: space-between;

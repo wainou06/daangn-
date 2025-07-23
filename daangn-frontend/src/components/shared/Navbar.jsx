@@ -28,12 +28,12 @@ function Navbar({ isAuthenticated, user }) {
       <Box style={{ marginBottom: '50px' }}>
          <AppBar position="static" style={{ backgroundColor: '#ff8800' }}>
             <Toolbar>
-               <Link to="/posts/create">
-                  <IconButton className="mobile-menu" size="large" edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-                     <MenuIcon />
-                  </IconButton>
+               <IconButton className="mobile-menu" size="large" edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+                  <MenuIcon />
+               </IconButton>
+               <Link to="/">
+                  <img src="/images/nav-logo.png" alt="로고" className="logo" />
                </Link>
-               <img src="/images/nav-logo.png" alt="로고" className="logo" />
                <Typography className="company" variant="h6" component="div" sx={{ flexGrow: 1 }}>
                   <Link to="/">
                      <p style={{ color: '#fff' }}>당근</p>
