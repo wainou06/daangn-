@@ -1,5 +1,6 @@
 *,
 body {
+   box-sizing: border-box;
    margin: 0;
    padding: 0;
 }
@@ -224,6 +225,7 @@ div.swiper {
    font-size: 32px;
    font-weight: bold;
    background: #fff;
+   color: #eb6200;
 
    /* Center slide text vertically */
    display: flex;
@@ -234,6 +236,32 @@ div.swiper {
 .swiper-vertical > .swiper-pagination-bullets,
 .swiper-pagination-vertical.swiper-pagination-bullets {
    display: none;
+}
+
+.search {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px auto;
+   max-width: 400px;
+}
+
+.search input {
+   padding: 10px;
+   width: 90%;
+   height: 40px;
+   border: 1px solid #eb6200;
+   border-radius: 20px 0 0 20px;
+}
+
+.search button {
+   padding: 5px;
+   width: 10%;
+   height: 40px;
+   border: 1px solid #eb6200;
+   border-left: none;
+   border-radius: 0 20px 20px 0;
+   font-size: 21px;
 }
 
 @media (max-width: 600px) {

@@ -21,7 +21,7 @@ function Home() {
       <main className="wrap">
          <div>
             <div className="location">
-               <LocationPinIcon style={{ fontSize: '35px', color: '#eb6200' }} />
+               <LocationPinIcon style={{ fontSize: '35px', color: 'rgb(0, 160, 91)' }} />
                <Swiper
                   direction={'vertical'}
                   pagination={{
@@ -50,8 +50,9 @@ function Home() {
             </div>
             <div className="search">
                <input type="text" placeholder="지역을 입력하세요." />
+
+               <button>🥕</button>
             </div>
-            <div></div>
          </div>
 
          <Box
